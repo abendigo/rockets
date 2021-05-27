@@ -13,19 +13,29 @@
 <script>
   export let rocket;
 
-  let { name, type, first_flight } = rocket
+  let { name, type } = rocket;
 </script>
 
 <style>
   .rocket {
-    border: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
     max-width: 600px;
     margin: auto;
+    padding: 10px;
+  }
+
+  .name {
+    font-size: 18px;
+  }
+
+  .type, .reused {
+    font-size: 14px;
+    color: lightgray;
   }
 </style>
 
 <div class='rocket'>
   <div class='name'>Rocket Name: {name}</div>
   <div class='type'>Rocket Type: {type}</div>
-  <div class='reused'>Reused: {first_flight} </div>
+  <div class='reused'>Reused: unknown </div>
 </div>
