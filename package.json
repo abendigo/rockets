@@ -1,5 +1,5 @@
 {
-  "name": "~TODO~",
+  "name": "rockets",
   "version": "0.0.1",
   "scripts": {
     "dev": "svelte-kit dev",
@@ -10,10 +10,5 @@
     "@sveltejs/kit": "next",
     "svelte": "^3.34.0"
   },
-  "type": "module",
-  "dependencies": {
-    "@fontsource/fira-mono": "^4.2.2",
-    "@lukeed/uuid": "^2.0.0",
-    "cookie": "^0.4.1"
-  }
+  "type": "module"
 }
